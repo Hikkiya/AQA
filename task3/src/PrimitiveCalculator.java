@@ -1,7 +1,7 @@
 public interface PrimitiveCalculator {
 
-    public double add(double a, double b);
-    public double sub(double a, double b);
-    public double mul(double a, double b);
-    public double div(double a, double b);
+    public double add(double valueA, double valueB);
+    public double sub(double valueA, double valueB);
+    public double mul(double valueA, double valueB);
+    public double div(double valueA, double valueB);
 }
